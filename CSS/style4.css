@@ -1,0 +1,128 @@
+/* Heading */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-container {
+    background-color: aqua;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.ul-navbar {
+    background-color: aqua;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    position: sticky;
+    position: -webkit-sticky;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    background-color: grey
+}
+
+.li-navbar {
+    border: 1px solid white; 
+    background-color: black;
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.li-navbar:hover {
+    background-color :aqua;
+    transition: .2s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+}
+
+/* Footer */
+#contact {
+    background: grey;
+    padding: 50px 50px 50px 50px;
+}
+
+.container-footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    line-height: 50px;
+}
+
+.p1 {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+}
+
+@media screen and (max-width:991.98px) { 
+    .wrapper {
+        width: 90%;
+    }
+    nav.navbar-container {
+        width: 100%;
+        margin: 0;
+    }
+    nav.navbar-container ul{
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+    nav.navbar-container ul li{
+        display: inline-block;
+        float: none;
+    }
+    section {
+        display: block;
+    }
+    section img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
